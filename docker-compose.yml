@@ -2,8 +2,8 @@ services:
   app:
     image: spring-image:latest
     ports:
-      - "8588:8588"
+      - "9000:9000"
     environment:
-#      SPRING_PROFILES_ACTIVE: 'default'
-      SPRING_PROFILES_ACTIVE: 'test'
+      SPRING_PROFILES_ACTIVE: 'default'
+#      SPRING_PROFILES_ACTIVE: 'test'
 #      DOCKER_USERNAME: 'kim'
