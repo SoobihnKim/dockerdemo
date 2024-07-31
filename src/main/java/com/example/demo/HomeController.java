@@ -12,4 +12,11 @@ public class HomeController {
         return ResponseEntity.ok()
                 .body("Server is running....");
     }
+
+    @GetMapping("/docker")
+    public ResponseEntity<?> docker() {
+        return ResponseEntity.ok()
+                .body("Hello docker!");
+    }
+
 }
